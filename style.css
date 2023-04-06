@@ -259,6 +259,39 @@ header .navbar ul li a:hover{
     color: #fff;
     background: var(--yellow);
 }
+
+/*  Skills  */
+.skills .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.skills .row .info{
+    flex:1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.skills .row .info li{
+    list-style: none;
+}
+.skills .row .info h3{
+    font-size: 2rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.skills .row .info p{
+    font-size: 2rem;
+    color: #eee;
+}
+.skills .row .info p span{
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+/* Projects */
 .projects .box-container{
     display: flex;
     align-items: center;
